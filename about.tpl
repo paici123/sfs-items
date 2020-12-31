@@ -90,7 +90,7 @@
                         
                         {assign var="productlist" value=$productdata->TakeProductListByName("progress",0)}
                         {foreach from=$productlist item=productinfo}
-                        <li class="wow  bounceInLeft  animated">
+                        <li class="wow  bounceInRight  animated">
                             <div>
                                 <i>{$productinfo->name}</i>
                                 <p>{$productinfo->seodescription}</p>

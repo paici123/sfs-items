@@ -50,15 +50,5 @@
           <a href="">注册</a>
         </p>
       </div>
-       <!-- 汉堡按钮  -->
-       <!-- <div class="mune_index visible-xs">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target="#example-navbar-collapse">
-            <span class="sr-only"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-      </div> -->
     </div>
   </div>
