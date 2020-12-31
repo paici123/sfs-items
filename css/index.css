@@ -1,0 +1,490 @@
+* {
+  margin:0;
+  padding:0;
+}
+/* 修改container的最大宽度为1200  container给的是默认浏览器宽度1188px*/
+@media screen and (max-width:1200px) {
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 头部导航栏 nav*/
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index:10;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header .container .logo{
+  width: 20%;
+}
+.header .container .nav {
+  width: 60%;
+  margin-top: 10px;
+  /* display: none !important; */
+}
+navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.header .container .login {
+  margin-top: 10px;
+  width: 20%;
+  
+}
+.header .container .login p {
+  display: block;
+  width: 92px;
+  height: 32px;
+  border: 1px solid #ccc;
+  padding:5px 5px;
+  margin-left: 25%;
+}
+.header .container .login p a{
+  width: 20%;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.header .container .nav ul{
+  display: flex;
+}
+.header .container .nav ul li{
+  flex: 1;
+}
+.header .container .nav ul li:nth-child(1) a{
+  display: block;
+  /* width:33px; */
+  margin: 0px 34px;
+  border-bottom: 3px solid #ccc;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.header .container .nav ul li a{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navgreter {
+  background: url(../image/1-shouye/0_img_banner1_bg.png);
+}
+.navgreter .container {
+  display: flex;
+}
+.navgreter .container div {
+  flex: 1;
+}
+.navgreter .container .nav_left {
+  height: 80%;
+  position: relative;
+}
+ .navgreter .container .nav_left .nav_h2h{
+  position: absolute;
+  top: 150px;
+  left: 20%;
+  color: #fff;
+}
+.navgreter .container .nav_left .nav_h2h p{
+  font-size: 18px;
+}
+.navgreter .nav_left .nav_ban{
+  position: absolute;
+  top: 350px;
+  left: 20%;
+} 
+.navgreter .nav_left .nav_ban p{
+ width: 150px;
+ height: 50px;
+ border: 1px solid #ccc;
+ font-size: 16px;
+ text-align: center;
+ line-height: 50px;
+ color: #fff;
+} 
+.navgreter .nav_left .nav_ban p a{
+  text-decoration: none;
+  color: #fff;
+} 
+ .navgreter .nav_left .nav_ban p a:hover{
+  color: #fff;
+}
+/*  排名产品  */
+.mainnav {
+  width: 100%;
+}
+.mainnav .main_nav {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.mainnav div:nth-child(1) h2{
+  margin: 0px;
+  text-align: center;
+}
+.mainnav .main_nav .optimize_nav h2::after {
+  width: 120px;
+  margin: 30px auto;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #468eff;
+}
+.mainnav .main_nav div:nth-child(1) p{
+  font-size: 15px;
+  padding-top: 70px;
+  text-align: center;
+}
+.mainnav .main_nav .main_img {
+  padding-top: 50px;
+}
+.mainnav .main_nav ul {
+  display: flex;
+}
+.mainnav .main_nav ul li{
+  flex:1;
+  border: 1px solid #eeebeb;
+  box-shadow: 2px 2px 5px #ccc;
+  padding: 30px 20px;
+  margin:0px 20px;
+}
+.main_nav ul li p{
+  font-size: 20px;
+}
+.main_nav ul li span{
+  font-size: 14px;
+}
+/* 此刻你是否正面临一些难题 */
+.problem .container {
+  padding-top: 50px;
+  text-align: center;
+}
+ .problem .container h2{
+   font-size: 32px;
+ }
+ .problem .container .optimize_nav::after {
+  width: 120px;
+  margin: 30px auto;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #468eff;
+}
+ .problem .container p{
+  font-size: 16px;
+  color: rgba(152, 152, 152, 1);
+  padding-top: 15px;
+}
+ /* 面临困难 */
+.problem_index .container .row .content{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.problem_index .container .row .content:nth-child(3){
+  border-bottom: none;
+}
+.problem_index .content div{
+  flex:1;
+} 
+.problem_index .content div:nth-child(2) {
+  padding-top: 34px;
+  padding-bottom: 50px;
+}
+.problem_index .container .content div:nth-child(2) p{
+  font-size: 20px;
+} 
+.problem_index .content div:nth-child(2) span{
+  display: block;
+  font-size: 20px;
+  color: #adadad;
+  line-height: 22px;
+  padding: 25px 30px;
+}
+.problem_index .content div:nth-child(2) div span{
+  display: block;
+  height: 100%;
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+  font-weight: normal;
+  padding: 20px 35px;
+  color: rgba(152, 152, 152, 1);
+}
+.problem_index .content div:nth-child(2) div img:nth-child(3){
+  padding-left: 90%;
+} 
+/* 排名问题 */
+.section {
+  position: relative;
+  width: 100%;
+  margin-top:100px;
+}
+.section div img {
+  width: 100%;
+}
+.section .sect_tion {
+  position: absolute;
+  bottom:20%;
+  left:30%;
+  font-size: 50px;
+  color:#fff;
+}
+.section .sect_p {
+  position: absolute;
+  bottom:10%;
+  left:30%;
+  font-size: 12px;
+  color:#fff;
+}
+/* 自主研发智能优势 */
+.column .column_ner {
+  text-align: center;
+  padding-top: 50px;
+}
+.container .column .column_ner h2::after {
+  width: 120px;
+  margin: 30px auto;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #468eff;
+}
+
+.rowlumn {
+  width: 1280px;
+}
+.rowlumn ul {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.rowlumn ul li{
+  flex:1;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-right :30px;
+}
+.rowlumn ul li p:nth-child(2){
+  font-size: 20px;
+}
+.rowlumn ul li p:nth-child(3){
+  font-size: 14px;
+}
+.rowlumn ul li:nth-child(1){
+  margin-bottom: 50px;
+}
+.rowlumn ul li:nth-child(2){
+  margin-top: 80px;
+}
+.rowlumn ul li:nth-child(3){
+  margin-bottom: 150px;
+}
+.column_iocn ul {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.column_iocn ul li{
+  text-align: center;
+  margin:0px 80px;
+}
+.column_iocn ul li p{
+ padding: 10px 0px;
+}
+/* 完全真实有效优化 */
+.optimize {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(245, 249, 255, 1);
+}
+.optimize .container {
+  position: relative;
+}
+.optimize .container div:nth-child(1) p{
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  font-size: 20px;
+}
+.optimize .container div:nth-child(2) img{
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  font-size: 20px;
+}
+/* 超快排-让精准流量提升20倍的排名软件 */
+.container  .count {
+  padding-top: 50px;
+}
+.container  .count ul{
+  display: flex;
+}
+.container  .count ul li{
+  flex:1;
+  text-align: center;
+  border-right:1px solid #ccc;
+}
+ .count ul li:nth-child(4){
+  border-right: none;
+}
+ .count ul li p:nth-child(1){
+  color: rgba(45, 122, 255, 1);
+  font-size: 40px;
+  
+}
+.count ul li p:nth-child(2){
+  color: rgba(152, 152, 152, 1);
+  font-size: 14px;
+}
+ .count ul li p:nth-child(3){
+  color: rgba(68, 68, 68, 1);
+  font-size: 16px;
+}
+/*  我们服务的客户行业 */
+.serice .seruce_ser ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:0px 20px;
+}
+.serice .seruce_ser ul li{
+ width: 340px;
+ height: 290px;
+ margin:43px 10px;
+ font-size: 18px;
+ text-align: center;
+ border:1px solid #ccc;
+}
+.serice .seruce_ser ul li:nth-child(1){
+  width: 340px;
+  height: 290px;
+  margin:43px 00px;
+ }
+ .serice .seruce_ser ul li p{
+  margin:50px 0px;
+ }
+ .serice .select {
+   padding-left: 85%;
+ }
+ .serice .select p{
+  font-size: 16px;
+}
+.row .nows ul{
+  padding-top: 50px;
+  padding-left: 40px;
+  position: relative;
+}
+.row .nows ul li p{
+ position: absolute;
+ top:21px;
+ left:100px;
+}
+/* 马上注册 */
+.regsiter img {
+  padding-top: 50px;
+  width: 100%;
+}
+.regsiter .regsiter_ter{
+  position: relative;
+  text-align: center;
+}
+.regsiter .regsiter_ter p:nth-child(1){
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom:120px;
+  left: 27%;
+}
+.regsiter .regsiter_ter p:nth-child(2){
+  display: block;
+  width: 176px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 20px;
+  border: 1px solid #fff;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom:30px;
+  left: 43%;
+  background-color:#74a4e8;
+}
+.regsiter .regsiter_ter p:nth-child(2) a{
+  text-decoration: none;
+  color: #ccc;
+}
+ /* 底部框 */
+ .foolter {
+  width: 100%;
+  height: 320px;
+  background-color: rgba(34, 38, 61, 1);
+}
+.foolter .container .foolter_top {
+  display: flex;
+
+}
+.foolter .container .foolter_top ul{
+  display: flex;
+  margin-left: 100px;
+}
+.foolter .container .foolter_top ul:nth-child(2){
+ padding-bottom: 20px;
+ font-size: 16px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li{
+  padding-left: 20px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li img{
+  border-left: 1px solid #ccc;
+  padding-left:100px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li p{   
+ padding-left:103px;
+}
+
+.foolter .container .foolter_top ul li{
+   padding: 0px 15px 0px 0px;
+   padding-top: 40px;
+   color: #ccc;
+}
+.foolter .container .foolter_top .foolter_top_fool li img{
+   padding: 10px 0px 0px 0px;
+   
+}
+.container .foolter_top .foolter_top_fool .foolter_top_fool_ter img {
+   border-right:1px solid #ccc;
+}
+.foolter_top .foolter_top_fool li:nth-child(n+2) p{
+   padding:20px 10px 0px 0px;
+}
+.foolter .container .foolter_bot ul {
+   display: flex;
+   justify-content: center;
+}
+.foolter .container .foolter_bot ul li{
+   color: #ccc;
+   font-size: 14px;
+}

@@ -1,0 +1,294 @@
+* {
+  margin:0;
+  padding:0;
+}
+/* 修改container的最大宽度为1200  container给的是默认浏览器宽度1188px*/
+@media screen and (max-width:1200px) {
+  .container {
+      width: 1200px;
+      margin: 0 auto;
+  }
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* 头部导航栏 nav */
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.container .row {
+  display: flex;
+}
+.container .row div:nth-child(1){
+  width: 116px;
+  height: 40px;
+}
+.container .row div:nth-child(2){
+  width: 840px;
+}
+.container .row div:nth-child(3){
+  width: 80px;
+}
+.container .row .img {
+  width: 117px;
+  padding-top: 20px;
+}
+.container .row .cell {
+  padding-left: 70;
+}
+.container .row .cell ul{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 840px;
+  padding-top: 30px;
+  color: #fff;
+}
+.container .row .cell ul li{
+  flex:1;
+}
+.container .row .cell ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.container .row .cell ul li:nth-child(7) a{
+  text-align: center;
+  display: block;
+  margin:0px 32px;
+  border-bottom: 3px solid #ccc;
+  color: #fff;
+  text-decoration: none;
+}
+.row .login {
+  padding-top: 20px;
+}
+.row .login div{
+  width: 110px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border: 1px solid #fff;
+}
+.login div p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+.login div p a{
+  color: #fff;
+  text-decoration: none;
+}
+/* SEO优化服务 字体内容 */
+.navgreter {
+  width: 100%;
+}
+.navgreter .nav_img {
+ position: relative;
+ margin: 50px 0px;
+ 
+}
+.navgreter .nav_img h1{
+  position: absolute;
+  bottom: 250px;
+  left: 45%;
+  font-size: 45px;
+  color: #fff;
+ }
+ /* 链接 */
+
+ .container .posction ul{
+   width: 150px;
+   display: flex;
+   font-size: 12px;
+ }
+ .container .posction ul li a{
+  text-decoration: none;
+ }
+ .function {
+   padding-top: 55px;
+ }
+ .function .tunct {
+   width: 1200px;
+   padding-bottom: 100px;
+ }
+ .function .tunct h2 {
+  font-weight: normal;
+  text-align: center;
+ }
+ .container .function .tunct .cke::after {
+  width: 120px;
+  margin: 30px auto;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #468eff;
+ }
+ .function .func_tion  {
+  font-weight: normal;
+  padding: 50px 170px;
+  border-bottom: 1px solid #ccc;
+ }
+/* 关于我们 */
+.about .container .about_title {
+  padding-top: 60px;
+}
+.about .container .about_title .about_tle p{
+  font-size: 22px;
+}
+.about .container .about_title .about_tit {
+  padding-left: 65px;
+}
+.about .container .about_title .about_tit p{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.about .container .about_title .about_tit p:nth-child(2){
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+/* 发展历程 */
+.course .container {
+  margin-top: 100px;
+}
+.course .container .course_nar {
+  text-align: center;
+}
+.course .container .course_nar .cke::after{
+  width: 120px;
+  margin: 30px auto;
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #468eff;
+}
+.course .container .course_nar p{
+  font-size: 16px;
+  padding: 50px 0px;
+  color: rgba(162, 162, 163, 1);
+}
+.course .container .coursetion {
+  display: flex;
+}
+/* 左边 */
+.course .container .coursetion .course_left{
+  width: 45%;
+}
+.course .container .coursetion .course_left ul li{
+  display: flex;
+  margin:0px 0px 420px 0px;
+}
+.course .container .coursetion .course_left ul li i{
+  font-size: 38px;
+  padding-left:78%;
+}
+.course .container .coursetion .course_left ul li p{
+  font-size: 16px;
+  padding-left: 128px;
+}
+.course .container .coursetion .course_left ul li img{
+  width: 20%;
+}
+
+/* 中间图片 */
+.course .container .coursetion .course_con{
+  width: 10%;
+  text-align: center;
+}
+/* 右边 */
+.course .container .coursetion .course_right{
+  width: 45%;
+}
+.course .container .coursetion .course_right ul li{
+  display: flex;
+}
+.course .container .coursetion .course_right ul li:nth-child(1){
+  margin:250px 0px 0px 0px;
+}
+.course .container .coursetion .course_right ul li:nth-child(2){
+  margin:450px 0px 0px 0px;
+}
+.course .container .coursetion .course_right ul li:nth-child(3){
+  margin:400px 0px 0px 0px;
+}
+.course .container .coursetion .course_right ul li:nth-child(3) img{
+  margin-left: 50%;
+}
+.course .container .coursetion .course_right ul li i{
+  font-size: 38px;
+
+}
+.course .container .coursetion .course_right ul li p{
+  font-size: 16px;
+}
+.course .container .coursetion .course_right ul li img{
+  width: 20%;
+}
+
+/* 底部框 */
+.foolter {
+  width: 100%;
+  height: 320px;
+  background-color: rgba(34, 38, 61, 1);
+}
+.foolter .container .foolter_top {
+  display: flex;
+
+}
+.foolter .container .foolter_top ul{
+  display: flex;
+  margin-left: 100px;
+}
+.foolter .container .foolter_top ul:nth-child(2){
+ padding-bottom: 20px;
+ font-size: 16px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li{
+  padding-left: 20px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li img{
+  border-left: 1px solid #ccc;
+  padding-left:100px;
+}
+.foolter .container .foolter_top ul:nth-child(2) li p{   
+ padding-left:103px;
+}
+
+.foolter .container .foolter_top ul li{
+   padding: 0px 15px 0px 0px;
+   padding-top: 40px;
+   color: #ccc;
+}
+.foolter .container .foolter_top .foolter_top_fool li img{
+   padding: 10px 0px 0px 0px;
+   
+}
+.container .foolter_top .foolter_top_fool .foolter_top_fool_ter img {
+   border-right:1px solid #ccc;
+}
+.foolter_top .foolter_top_fool li:nth-child(n+2) p{
+   padding:20px 10px 0px 0px;
+}
+.foolter .container .foolter_bot ul {
+   display: flex;
+   justify-content: center;
+}
+.foolter .container .foolter_bot ul li{
+   color: #ccc;
+   font-size: 14px;
+}
